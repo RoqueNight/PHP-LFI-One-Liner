@@ -1,7 +1,6 @@
 # PHP-LFI-One-Liner
 Simple one-liner to execute remote code on a system
 
-http://<ip>/shell.php?id=<remote code>
   
 # Example
 
